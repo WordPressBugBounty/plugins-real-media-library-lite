@@ -146,7 +146,7 @@ class Assets
     public function plugin_row_meta($links, $file)
     {
         if (\false !== \strpos($file, \plugin_basename(RML_FILE))) {
-            $links[] = '<a target="_blank" href="' . \esc_attr(\__('https://devowl.io/', RML_TD)) . '"><strong>' . \__('Complementary Plugins', RML_TD) . '</strong></a>';
+            $links[] = '<a target="_blank" href="' . \esc_attr(\__('https://devowl.io/', 'real-media-library-lite')) . '"><strong>' . \__('Complementary Plugins', 'real-media-library-lite') . '</strong></a>';
         }
         return $links;
     }
@@ -163,7 +163,7 @@ class Assets
      */
     public function media_view_strings($strings)
     {
-        $str = \__("\n\nNote: If you want to delete a shortcut file, the source file will NOT be deleted.\nIf you want to delete a non-shortcut file, all associated shortcuts are deleted, too.", RML_TD);
+        $str = \__("\n\nNote: If you want to delete a shortcut file, the source file will NOT be deleted.\nIf you want to delete a non-shortcut file, all associated shortcuts are deleted, too.", 'real-media-library-lite');
         if ($strings === \false) {
             return $str;
         }
