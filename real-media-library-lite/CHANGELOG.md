@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.22.76 (2026-05-11)
+
+
+### Bug Fixes
+
+* gallery shortcode did not work for free version (CU-869d454p5)
+
+
+
+
+
+
+
 ## 4.22.75 (2026-05-07)
 
 

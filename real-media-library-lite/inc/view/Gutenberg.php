@@ -16,7 +16,7 @@ class Gutenberg
 {
     use UtilsProvider;
     private static $me = null;
-    const ID_GALLERY = RML_TD . '/gallery';
+    const ID_GALLERY = 'real-media-library/gallery';
     /**
      * Register Gutenberg block.
      */
