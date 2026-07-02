@@ -13,37 +13,17 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
-#. Plugin Name of the plugin
-#: index.php
-msgid "Real Media Library"
-msgstr ""
-
-#. Plugin URI of the plugin
-#: index.php
-msgid "https://devowl.io/wordpress-real-media-library/"
-msgstr ""
-
-#. Description of the plugin
-#: index.php
-msgid "Organize uploaded media in folders, collections and galleries: A file manager for WordPress. Media management made easy!"
-msgstr ""
-
-#. Author of the plugin
-#: index.php
-msgid "devowl.io"
-msgstr ""
-
-#. Author URI of the plugin
-#: index.php
-msgid "https://devowl.io"
-msgstr ""
-
 #: inc/AdInitiator.php:58
 msgid "Complete file and folder manager"
 msgstr ""
 
 #: inc/AdInitiator.php:59
-msgid "Real Media Library is a WordPress plugin that empowers you with advanced media management. You can use this plugin to organize the thousands of images, audio, video and PDF files in your media library into folders. Basically it is a file manager like Windows Explorer or Mac Finder, but for WordPress."
+msgid ""
+"Real Media Library is a WordPress plugin that empowers you with advanced "
+"media management. You can use this plugin to organize the thousands of "
+"images, audio, video and PDF files in your media library into folders. "
+"Basically it is a file manager like Windows Explorer or Mac Finder, but for "
+"WordPress."
 msgstr ""
 
 #: inc/AdInitiator.php:69
@@ -51,11 +31,15 @@ msgid "Filter in insert media dialog"
 msgstr ""
 
 #: inc/AdInitiator.php:70
-msgid "No matter where you are, the folder structure of Real Media Library is always where you can select files. For example in the dialog for selecting a \"Featured Image\"."
+msgid ""
+"No matter where you are, the folder structure of Real Media Library is "
+"always where you can select files. For example in the dialog for selecting a "
+"\"Featured Image\"."
 msgstr ""
 
 #: inc/AdInitiator.php:80
-msgid "In the Lite version you can only select the folder by a simple dropdown."
+msgid ""
+"In the Lite version you can only select the folder by a simple dropdown."
 msgstr ""
 
 #: inc/AdInitiator.php:88
@@ -63,17 +47,15 @@ msgid "Custom image order"
 msgstr ""
 
 #: inc/AdInitiator.php:89
-msgid "Organizing your media files is really easy with the Real Media Library plugin. You can arrange the order of your files yourself by dragging and dropping. This allows you to move important files to the top for faster access."
+msgid ""
+"Organizing your media files is really easy with the Real Media Library "
+"plugin. You can arrange the order of your files yourself by dragging and "
+"dropping. This allows you to move important files to the top for faster "
+"access."
 msgstr ""
 
 #: inc/AdInitiator.php:104
 msgid "Get your PRO license now!"
-msgstr ""
-
-#: inc/api/attachment.php:108
-#: inc/api/attachment.php:129
-#: inc/api/attachment.php:145
-msgid "The given folder was not found."
 msgstr ""
 
 #: inc/Assets.php:224
@@ -88,26 +70,44 @@ msgstr ""
 msgid ""
 "\n"
 "\n"
-"Note: If you want to delete a shortcut file, the source file will NOT be deleted.\n"
-"If you want to delete a non-shortcut file, all associated shortcuts are deleted, too."
+"Note: If you want to delete a shortcut file, the source file will NOT be "
+"deleted.\n"
+"If you want to delete a non-shortcut file, all associated shortcuts are "
+"deleted, too."
+msgstr ""
+
+#: inc/Core.php:103
+msgid "https://devowl.io/go/real-media-library?source=rml-lite"
+msgstr ""
+
+#: inc/RpmInitiator.php:60
+msgid ""
+"https://devowl.io/knowledge-base/codecanyon-where-can-i-find-my-license-key/"
+msgstr ""
+
+#: inc/api/attachment.php:108 inc/api/attachment.php:129
+#: inc/api/attachment.php:145
+msgid "The given folder was not found."
 msgstr ""
 
 #: inc/attachment/CustomField.php:53
-msgid "If you move this shortcut, the location of the source/main file is not changed."
+msgid ""
+"If you move this shortcut, the location of the source/main file is not "
+"changed."
 msgstr ""
 
 #: inc/attachment/CustomField.php:57
-msgid "If you move this attachment, the folder location of the associated shortcuts are not changed."
+msgid ""
+"If you move this attachment, the folder location of the associated shortcuts "
+"are not changed."
 msgstr ""
 
 #: inc/attachment/CustomField.php:81
 msgid "Move to another folder"
 msgstr ""
 
-#: inc/attachment/CustomField.php:86
-#: inc/folder/Creatable.php:340
-#: inc/view/FolderShortcode.php:114
-#: inc/view/Lang.php:51
+#: inc/attachment/CustomField.php:86 inc/folder/Creatable.php:340
+#: inc/view/FolderShortcode.php:114 inc/view/Lang.php:51
 msgid "Folder"
 msgstr ""
 
@@ -116,19 +116,28 @@ msgid "Shortcut infos"
 msgstr ""
 
 #: inc/attachment/CustomField.php:134
-msgid "This is a shortcut of a media library file. Shortcuts doesn't need any physical storage <strong>(0 kB)</strong>. If you want to change the file itself, you must do this in the original file (for example replace media file through a plugin).<br/>Note also that the fields in the shortcuts can be different to the original file, for example \"Title\", \"Description\" or \"Caption\"."
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage <strong>(0 kB)</strong>. If you want to change the file "
+"itself, you must do this in the original file (for example replace media "
+"file through a plugin).<br/>Note also that the fields in the shortcuts can "
+"be different to the original file, for example \"Title\", \"Description\" or "
+"\"Caption\"."
 msgstr ""
 
 #. translators:
 #: inc/attachment/CustomField.php:157
 #, php-format
 msgid "For this file is %d shortcut available in the following folder:"
-msgid_plural "For this file are %d shortcuts available in the following folders:"
+msgid_plural ""
+"For this file are %d shortcuts available in the following folders:"
 msgstr[0] ""
 msgstr[1] ""
 
 #: inc/attachment/CustomField.php:180
-msgid "This file has no associated shortcuts. You can create shortcuts by moving files per mouse and hold any key."
+msgid ""
+"This file has no associated shortcuts. You can create shortcuts by moving "
+"files per mouse and hold any key."
 msgstr ""
 
 #: inc/attachment/Permissions.php:46
@@ -156,7 +165,9 @@ msgid "Select destination folder"
 msgstr ""
 
 #: inc/attachment/Upload.php:109
-msgid "You can simply upload files directly to a folder. Select a folder and upload files."
+msgid ""
+"You can simply upload files directly to a folder. Select a folder and upload "
+"files."
 msgstr ""
 
 #: inc/attachment/Upload.php:114
@@ -179,15 +190,16 @@ msgstr ""
 msgid "Export"
 msgstr ""
 
-#: inc/comp/ExImport.php:107
-#: inc/comp/ExImport.php:152
-#: inc/comp/ExImport.php:163
-#: inc/comp/ExImport.php:172
+#: inc/comp/ExImport.php:107 inc/comp/ExImport.php:152
+#: inc/comp/ExImport.php:163 inc/comp/ExImport.php:172
 msgid "Import"
 msgstr ""
 
 #: inc/comp/ExImport.php:110
-msgid "All available folders will be exported. The current structure is not lost during import - but check that there are no duplicate names in the import data, as these are not checked."
+msgid ""
+"All available folders will be exported. The current structure is not lost "
+"during import - but check that there are no duplicate names in the import "
+"data, as these are not checked."
 msgstr ""
 
 #: inc/comp/ExImport.php:116
@@ -202,10 +214,8 @@ msgstr ""
 msgid "Importing data is only available in PRO version."
 msgstr ""
 
-#: inc/comp/ExImport.php:130
-#: inc/comp/ExImport.php:192
-#: inc/usersettings/DefaultFolder.php:79
-#: inc/view/Lang.php:252
+#: inc/comp/ExImport.php:130 inc/comp/ExImport.php:192
+#: inc/usersettings/DefaultFolder.php:79 inc/view/Lang.php:252
 msgid "Learn more about PRO"
 msgstr ""
 
@@ -218,7 +228,8 @@ msgid "Nothing to import."
 msgstr ""
 
 #: inc/comp/ExImport.php:185
-msgid "Importing categories from another plugin is only available in PRO version."
+msgid ""
+"Importing categories from another plugin is only available in PRO version."
 msgstr ""
 
 #: inc/comp/ExportMediaLibrary.php:158
@@ -233,17 +244,13 @@ msgstr ""
 msgid "PolyLang: Automatically move translations"
 msgstr ""
 
-#: inc/comp/PolyLang.php:78
-#: inc/comp/WPML.php:332
-msgid "If you move a file, the corresponding translated file will also be moved."
+#: inc/comp/PolyLang.php:78 inc/comp/WPML.php:332
+msgid ""
+"If you move a file, the corresponding translated file will also be moved."
 msgstr ""
 
 #: inc/comp/WPML.php:314
 msgid "WPML: Automatically move translations"
-msgstr ""
-
-#: inc/Core.php:103
-msgid "https://devowl.io/go/real-media-library?source=rml-lite"
 msgstr ""
 
 #. translators: %s: Existing folder name.
@@ -256,6 +263,18 @@ msgstr ""
 #: inc/exception/OnlyInProVersionException.php:23
 #, php-format
 msgid "This functionality is not available in the free version (%s)."
+msgstr ""
+
+#: inc/folder/CRUD.php:126
+msgid "The given folder does not exist or you cannot rename this folder."
+msgstr ""
+
+#: inc/folder/CRUD.php:146 inc/view/Lang.php:107
+msgid "The folder you try to delete has subfolders."
+msgstr ""
+
+#: inc/folder/CRUD.php:205
+msgid "The given folder does not exist."
 msgstr ""
 
 #: inc/folder/Creatable.php:183
@@ -271,7 +290,8 @@ msgid "The folder could not be created because it already exists."
 msgstr ""
 
 #: inc/folder/Creatable.php:360
-msgid "A folder can contain every type of file or a collection, but not gallery."
+msgid ""
+"A folder can contain every type of file or a collection, but not gallery."
 msgstr ""
 
 #. translators:
@@ -288,43 +308,28 @@ msgstr ""
 msgid "Order by name descending"
 msgstr ""
 
-#: inc/folder/Creatable.php:526
-#: inc/order/Sortable.php:100
+#: inc/folder/Creatable.php:526 inc/order/Sortable.php:100
 msgid "Order by ID ascending"
 msgstr ""
 
-#: inc/folder/Creatable.php:530
-#: inc/order/Sortable.php:104
+#: inc/folder/Creatable.php:530 inc/order/Sortable.php:104
 msgid "Order by ID descending"
 msgstr ""
 
-#: inc/folder/CRUD.php:126
-msgid "The given folder does not exist or you cannot rename this folder."
-msgstr ""
-
-#: inc/folder/CRUD.php:146
-#: inc/view/Lang.php:107
-msgid "The folder you try to delete has subfolders."
-msgstr ""
-
-#: inc/folder/CRUD.php:205
-msgid "The given folder does not exist."
-msgstr ""
-
-#: inc/folder/Root.php:21
-#: inc/folder/Root.php:82
-#: inc/view/Lang.php:146
-#: inc/view/View.php:119
-#: inc/view/View.php:124
+#: inc/folder/Root.php:21 inc/folder/Root.php:82 inc/view/Lang.php:146
+#: inc/view/View.php:119 inc/view/View.php:124
 msgid "Unorganized"
 msgstr ""
 
 #: inc/folder/Root.php:89
-msgid "Unorganized is the same as a root folder. Here you can find all files which are not assigned to a folder."
+msgid ""
+"Unorganized is the same as a root folder. Here you can find all files which "
+"are not assigned to a folder."
 msgstr ""
 
 #: inc/metadata/CoverImage.php:74
-msgid "This option is disabled on this page. Please navigate to the media library."
+msgid ""
+"This option is disabled on this page. Please navigate to the media library."
 msgstr ""
 
 #: inc/metadata/CoverImage.php:83
@@ -381,13 +386,11 @@ msgstr ""
 
 #: inc/overrides/lite/folder/Creatable.php:192
 #: inc/overrides/pro/folder/Creatable.php:309
-#: inc/overrides/pro/order/Sortable.php:151
-#: inc/rest/Attachment.php:170
+#: inc/overrides/pro/order/Sortable.php:151 inc/rest/Attachment.php:170
 msgid "Something went wrong."
 msgstr ""
 
-#: inc/overrides/lite/rest/Service.php:27
-#: inc/overrides/pro/rest/Service.php:28
+#: inc/overrides/lite/rest/Service.php:27 inc/overrides/pro/rest/Service.php:28
 msgid "Folder not found."
 msgstr ""
 
@@ -400,7 +403,9 @@ msgid "Collection"
 msgstr ""
 
 #: inc/overrides/pro/folder/Collection.php:60
-msgid "A collection cannot contain files. But you can create other collections and <strong> galleries</strong> there."
+msgid ""
+"A collection cannot contain files. But you can create other collections and "
+"<strong> galleries</strong> there."
 msgstr ""
 
 #. translators:
@@ -430,7 +435,9 @@ msgid "Gallery"
 msgstr ""
 
 #: inc/overrides/pro/folder/Gallery.php:62
-msgid "A gallery can only contain images. To view a gallery, go to a post and look at the buttons of the visual editor..."
+msgid ""
+"A gallery can only contain images. To view a gallery, go to a post and look "
+"at the buttons of the visual editor..."
 msgstr ""
 
 #: inc/overrides/pro/order/Sortable.php:46
@@ -441,8 +448,7 @@ msgstr ""
 msgid "This folder has an automatic order. Please deactivate that first."
 msgstr ""
 
-#: inc/overrides/pro/usersettings/DefaultFolder.php:39
-#: inc/view/Lang.php:205
+#: inc/overrides/pro/usersettings/DefaultFolder.php:39 inc/view/Lang.php:205
 msgid "Please select a folder to show items."
 msgstr ""
 
@@ -456,10 +462,6 @@ msgstr ""
 
 #: inc/rest/Service.php:203
 msgid "Real Media Library is not active for the current user."
-msgstr ""
-
-#: inc/RpmInitiator.php:60
-msgid "https://devowl.io/knowledge-base/codecanyon-where-can-i-find-my-license-key/"
 msgstr ""
 
 #: inc/usersettings/AllFilesShortcuts.php:58
@@ -483,7 +485,9 @@ msgid "Last opened folder"
 msgstr ""
 
 #: inc/usersettings/DefaultFolder.php:72
-msgid "Your media library can always open in the last opened folder or a folder you choose. This saves you time every time you open the media library!"
+msgid ""
+"Your media library can always open in the last opened folder or a folder you "
+"choose. This saves you time every time you open the media library!"
 msgstr ""
 
 #: inc/usersettings/InfiniteScrolling.php:45
@@ -491,7 +495,9 @@ msgid "Enable infinite scrolling in grid view"
 msgstr ""
 
 #: inc/usersettings/InfiniteScrolling.php:48
-msgid "Instead of displaying a \"Load More\" button, all files are loaded automatically as you scroll down. This is not supported in list view."
+msgid ""
+"Instead of displaying a \"Load More\" button, all files are loaded "
+"automatically as you scroll down. This is not supported in list view."
 msgstr ""
 
 #: inc/view/FolderShortcode.php:109
@@ -499,7 +505,8 @@ msgid "Gallery from Media Folder"
 msgstr ""
 
 #: inc/view/FolderShortcode.php:110
-msgid "Note: You can only select galleries. Folders and collections are grayed."
+msgid ""
+"Note: You can only select galleries. Folders and collections are grayed."
 msgstr ""
 
 #: inc/view/FolderShortcode.php:115
@@ -547,7 +554,10 @@ msgid "Full Size"
 msgstr ""
 
 #: inc/view/Lang.php:39
-msgid "Subfolders are only available in the PRO version. But you can now create an unlimited number of folders on the main level (instead of the previous max. 10 folders)."
+msgid ""
+"Subfolders are only available in the PRO version. But you can now create an "
+"unlimited number of folders on the main level (instead of the previous max. "
+"10 folders)."
 msgstr ""
 
 #: inc/view/Lang.php:48
@@ -591,7 +601,8 @@ msgid "You cannot *create* subfolders"
 msgstr ""
 
 #: inc/view/Lang.php:63
-msgid "You cannot *insert* new files. New files will be moved to Unorganized..."
+msgid ""
+"You cannot *insert* new files. New files will be moved to Unorganized..."
 msgstr ""
 
 #: inc/view/Lang.php:67
@@ -643,7 +654,9 @@ msgid "Are you sure to delete *{name}*? All files gets moved to Unorganized."
 msgstr ""
 
 #: inc/view/Lang.php:88
-msgid "Are you sure to delete *{count} folders*? All files gets moved to Unorganized."
+msgid ""
+"Are you sure to delete *{count} folders*? All files gets moved to "
+"Unorganized."
 msgstr ""
 
 #: inc/view/Lang.php:92
@@ -667,7 +680,9 @@ msgid "No folders found"
 msgstr ""
 
 #: inc/view/Lang.php:97
-msgid "No folders have been created yet. Just click on the button above to create your first folder."
+msgid ""
+"No folders have been created yet. Just click on the button above to create "
+"your first folder."
 msgstr ""
 
 #: inc/view/Lang.php:101
@@ -736,12 +751,18 @@ msgstr ""
 
 #: inc/view/Lang.php:118
 msgid ""
-"This is a shortcut of a media library file. Shortcuts doesn't need any physical storage *(0 kB)*. If you want to change the file itself, you must do this in the original file (for example replace media file through a plugin).\n"
-"Note also that the fields in the shortcuts can be different to the original file, for example \"Title\", \"Description\" or \"Caption\"."
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage *(0 kB)*. If you want to change the file itself, you must "
+"do this in the original file (for example replace media file through a "
+"plugin).\n"
+"Note also that the fields in the shortcuts can be different to the original "
+"file, for example \"Title\", \"Description\" or \"Caption\"."
 msgstr ""
 
 #: inc/view/Lang.php:123
-msgid "In the current view of uploads, filters are active. Please reset them and refresh the view."
+msgid ""
+"In the current view of uploads, filters are active. Please reset them and "
+"refresh the view."
 msgstr ""
 
 #: inc/view/Lang.php:127
@@ -857,7 +878,9 @@ msgid "Click this to create a new folder"
 msgstr ""
 
 #: inc/view/Lang.php:162
-msgid "A folder can contain any file type and collection, but not galleries. If you want to create a subfolder, select a folder and click this button."
+msgid ""
+"A folder can contain any file type and collection, but not galleries. If you "
+"want to create a subfolder, select a folder and click this button."
 msgstr ""
 
 #: inc/view/Lang.php:166
@@ -866,9 +889,12 @@ msgstr ""
 
 #: inc/view/Lang.php:167
 msgid ""
-"A collection cannot contain files. However, you can create additional collections and *galleries* there. This gallery is only a *gallery data folder*, i.e. they are not automatically visible on the website.\n"
+"A collection cannot contain files. However, you can create additional "
+"collections and *galleries* there. This gallery is only a *gallery data "
+"folder*, i.e. they are not automatically visible on the website.\n"
 "\n"
-"You can create a *visual gallery* by using a shortcode in the Visual Editor on your pages/postings."
+"You can create a *visual gallery* by using a shortcode in the Visual Editor "
+"on your pages/postings."
 msgstr ""
 
 #: inc/view/Lang.php:173
@@ -877,7 +903,8 @@ msgstr ""
 
 #: inc/view/Lang.php:177
 msgid ""
-"A *gallery data folder* can only contain images. It is easier for you to distinguish where your visual galleries are located.\n"
+"A *gallery data folder* can only contain images. It is easier for you to "
+"distinguish where your visual galleries are located.\n"
 "\n"
 "You can also order the images into *a custom image order* per drag&drop."
 msgstr ""
@@ -959,7 +986,9 @@ msgid "Dismiss notice"
 msgstr ""
 
 #: inc/view/Lang.php:210
-msgid "It looks like you have already used another plugin for folders in the media library."
+msgid ""
+"It looks like you have already used another plugin for folders in the media "
+"library."
 msgstr ""
 
 #: inc/view/Lang.php:214
@@ -971,7 +1000,11 @@ msgid "Dismiss"
 msgstr ""
 
 #: inc/view/Lang.php:216
-msgid "Real Media Library creates a virtual folder structure. The URLs of uploads do not change when you move the file. Learn more about <a href=\"https://devowl.io/knowledge-base/real-media-library-physical-folder-structur/\" target=\"_blank\">how to automatically move files to physical folders.</a>"
+msgid ""
+"Real Media Library creates a virtual folder structure. The URLs of uploads "
+"do not change when you move the file. Learn more about <a href=\"https://"
+"devowl.io/knowledge-base/real-media-library-physical-folder-structur/\" "
+"target=\"_blank\">how to automatically move files to physical folders.</a>"
 msgstr ""
 
 #: inc/view/Lang.php:220
@@ -987,7 +1020,10 @@ msgid "https://devowl.io/knowledge-base/license-installation-type/"
 msgstr ""
 
 #: inc/view/Lang.php:226
-msgid "Before we start organizing your media, you can *obtain your free license to enjoy all the benefits* of the free version of Real Media Library. Get started now!"
+msgid ""
+"Before we start organizing your media, you can *obtain your free license to "
+"enjoy all the benefits* of the free version of Real Media Library. Get "
+"started now!"
 msgstr ""
 
 #: inc/view/Lang.php:230
@@ -1015,7 +1051,9 @@ msgid "Continue without any support and without e.g. discount announcements"
 msgstr ""
 
 #: inc/view/Lang.php:242
-msgid "You will be redirected to the external website of PRO version. Please confirm to continue!"
+msgid ""
+"You will be redirected to the external website of PRO version. Please "
+"confirm to continue!"
 msgstr ""
 
 #: inc/view/Lang.php:246
@@ -1047,7 +1085,10 @@ msgid "You like collections?"
 msgstr ""
 
 #: inc/view/Lang.php:260
-msgid "Get more organized with different types of folders: Collections and galleries help you to easily recognize where your image galleries are located."
+msgid ""
+"Get more organized with different types of folders: Collections and "
+"galleries help you to easily recognize where your image galleries are "
+"located."
 msgstr ""
 
 #: inc/view/Lang.php:266
@@ -1055,7 +1096,9 @@ msgid "Custom content order?"
 msgstr ""
 
 #: inc/view/Lang.php:268
-msgid "Get your folder contents in order and arrange your files according to a criterion (e.g. name descending) or by drag & drop."
+msgid ""
+"Get your folder contents in order and arrange your files according to a "
+"criterion (e.g. name descending) or by drag & drop."
 msgstr ""
 
 #: inc/view/Lang.php:274
@@ -1063,7 +1106,9 @@ msgid "Full order control?"
 msgstr ""
 
 #: inc/view/Lang.php:276
-msgid "Organize the nodes within your folder tree according to a criterion (e.g. name descending) or by drag & drop."
+msgid ""
+"Organize the nodes within your folder tree according to a criterion (e.g. "
+"name descending) or by drag & drop."
 msgstr ""
 
 #: inc/view/Lang.php:282
@@ -1071,7 +1116,10 @@ msgid "Want to create subfolders?"
 msgstr ""
 
 #: inc/view/Lang.php:285
-msgid "Subfolders offer you the possibility to bring more structure into your media library. They help you to keep the overview, even if you really have many files in your media library."
+msgid ""
+"Subfolders offer you the possibility to bring more structure into your media "
+"library. They help you to keep the overview, even if you really have many "
+"files in your media library."
 msgstr ""
 
 #: inc/view/Lang.php:291
@@ -1079,7 +1127,10 @@ msgid "Want to switch between folders more comfortably?"
 msgstr ""
 
 #: inc/view/Lang.php:293
-msgid "Let the complete folder tree as in your media library also be displayed in this dialog instead of searching each time in the dropdown. It is simply more comfortable!"
+msgid ""
+"Let the complete folder tree as in your media library also be displayed in "
+"this dialog instead of searching each time in the dropdown. It is simply "
+"more comfortable!"
 msgstr ""
 
 #: inc/view/Lang.php:299
@@ -1087,7 +1138,10 @@ msgid "Want to upload entire folders?"
 msgstr ""
 
 #: inc/view/Lang.php:300
-msgid "With Real Media Library you can upload entire folders using drag and drop. All folders, subfolders and files will be uploaded and displayed in your media library in the same structure. Get PRO to upload folders!"
+msgid ""
+"With Real Media Library you can upload entire folders using drag and drop. "
+"All folders, subfolders and files will be uploaded and displayed in your "
+"media library in the same structure. Get PRO to upload folders!"
 msgstr ""
 
 #: inc/view/Options.php:41
@@ -1130,13 +1184,14 @@ msgstr ""
 msgid "Reset count"
 msgstr ""
 
-#: inc/view/Options.php:171
-#: inc/view/Options.php:197
+#: inc/view/Options.php:171 inc/view/Options.php:197
 msgid "Reset"
 msgstr ""
 
 #: inc/view/Options.php:185
-msgid "Activate this option if you are using a page builder like Divi Page Builder, WPBakery Page Builder or Elementor."
+msgid ""
+"Activate this option if you are using a page builder like Divi Page Builder, "
+"WPBakery Page Builder or Elementor."
 msgstr ""
 
 #: inc/view/Options.php:200
@@ -1149,4 +1204,31 @@ msgstr ""
 
 #: inc/view/View.php:221
 msgid "Unorganized pictures"
+msgstr ""
+
+#. Description of the plugin
+#: index.php
+msgid ""
+"Organize uploaded media in folders, collections and galleries: A file "
+"manager for WordPress. Media management made easy!"
+msgstr ""
+
+#. Plugin Name of the plugin
+#: index.php
+msgid "Real Media Library"
+msgstr ""
+
+#. Author of the plugin
+#: index.php
+msgid "devowl.io"
+msgstr ""
+
+#. Author URI of the plugin
+#: index.php
+msgid "https://devowl.io"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: index.php
+msgid "https://devowl.io/wordpress-real-media-library/"
 msgstr ""
