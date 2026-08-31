@@ -384,7 +384,7 @@ msgid "Natural order by filename descending"
 msgstr ""
 
 #: inc/overrides/lite/folder/Creatable.php:192
-#: inc/overrides/pro/folder/Creatable.php:309
+#: inc/overrides/pro/folder/Creatable.php:325
 #: inc/overrides/pro/order/Sortable.php:151 inc/rest/Attachment.php:170
 msgid "Something went wrong."
 msgstr ""
@@ -408,20 +408,20 @@ msgid ""
 msgstr ""
 
 #. translators:
-#: inc/overrides/pro/folder/Creatable.php:109
+#: inc/overrides/pro/folder/Creatable.php:117
 #, php-format
 msgid "The parent %d does not exist."
 msgstr ""
 
-#: inc/overrides/pro/folder/Creatable.php:164
+#: inc/overrides/pro/folder/Creatable.php:180
 msgid "The given parent does not exist to set the parent for this folder."
 msgstr ""
 
-#: inc/overrides/pro/folder/Creatable.php:171
+#: inc/overrides/pro/folder/Creatable.php:187
 msgid "You are not allowed to change the parent for this folder."
 msgstr ""
 
-#: inc/overrides/pro/folder/Creatable.php:177
+#: inc/overrides/pro/folder/Creatable.php:193
 msgid "The given parent does not allow the folder type."
 msgstr ""
 

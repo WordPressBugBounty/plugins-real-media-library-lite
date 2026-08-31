@@ -3,6 +3,134 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.23.4 (2026-08-31)
+
+
+### Bug Fixes
+
+* preserve manual folder and content order across MySQL versions (CU-869emeg3v)
+* skip Real Media Library scripts in Divi 4 Visual Builder to avoid React 16 useId crash (CU-869epje5u)
+
+
+<details><summary>Development dependency update @devowl-wp/api 1.13.0</summary>
+
+
+**_Purpose of dependency:_** _Shared typings for all Node.js backends and frontends._
+##### Bug Fixes
+
+* api-reference did no longer render (CU-869eqh3r0)
+
+
+##### Features
+
+* add SSE Event-Source contracts for typed realtime streams (CU-869eqh3r0)</details>
+
+
+
+
+
+## 4.23.3 (2026-08-24) (not released)
+
+**Note:** This version of the package has not (yet) been released publicly. This happens if changes have been made in dependencies that do not affect this package (e.g. changes for the development of the package). The changes will be rolled out with the next official update.
+
+**Note:** This package (@devowl-wp/real-media-library) has been updated because a dependency, which is also shipped with this package, has changed.
+
+
+<details><summary>Dependency updates @devowl-wp/real-product-manager-wp-client 1.22.0</summary>
+
+
+**_Purpose of dependency:_** _A WordPress client for Real Product Manager_
+##### Features
+
+* implement percentage-based feature flagging for WordPress clients (CU-869envwq6)</details>
+
+
+
+
+
+## 4.23.2 (2026-08-21) (not released)
+
+**Note:** This version of the package has not (yet) been released publicly. This happens if changes have been made in dependencies that do not affect this package (e.g. changes for the development of the package). The changes will be rolled out with the next official update.
+
+**Note:** This package (@devowl-wp/real-media-library) has been updated because a dependency, which is also shipped with this package, has changed.
+
+
+<details><summary>Development dependency update @devowl-wp/api 1.12.2</summary>
+
+
+**_Purpose of dependency:_** _Shared typings for all Node.js backends and frontends._
+##### Bug Fixes
+
+* offload high-throughput locks from etcd to Redis Redlock (CU-869emktev)</details>
+
+
+
+
+
+## 4.23.1 (2026-08-20) (not released)
+
+**Note:** This version of the package has not (yet) been released publicly. This happens if changes have been made in dependencies that do not affect this package (e.g. changes for the development of the package). The changes will be rolled out with the next official update.
+
+**Note:** This package (@devowl-wp/real-media-library) has been updated because a dependency, which is also shipped with this package, has changed.
+
+
+<details><summary>Development dependency update @devowl-wp/continuous-integration 0.9.2</summary>
+
+
+**_Purpose of dependency:_** _DevOps macros, job templates and jobs for Gitlab CI and @devowl-wp/node-gitlab-ci._
+##### Bug Fixes
+
+* add parent flush lock and pin production app images (CU-869egkb98)
+* update FTP upload command for Envato zips to use secure connection (CU-869ejmez7)
+
+
+##### Build System
+
+* ship Complyforce production deploy on swarm_public2 (CU-869c51h34)
+* split production deploy by Compose profiles for dual public Swarms (CU-869d89by6)
+
+
+##### Code Refactoring
+
+* migrate storage-dev off MinIO to OVH and SeaweedFS (CU-869e14thv)
+
+
+##### Continuous Integration
+
+* gate docker validate deploy config on protected branches (CU-869egkb98)
+* include ensure-bundle.sh in INSTALL_FILES for Docker build context (CU-869ckvgg2)
+* migrate ACME cert generation from lego v4 to v5 CLI (CU-869chp8wu)
+* remove redundant lego migrate commands for ACME cert generation (CU-869chp8wu)
+
+
+##### Maintenance
+
+* add public DNS resolvers for ACME challenge in lego cert generation (CU-869chp8wu)
+* add Pulumi bridged-provider SDK paths to install files for install/bootstrap (CU-869e14thv)
+* add Pulumi infrastructure package for S3 provisioning (CU-869e14thv)
+* dynamic mc aliases from environment variables (CU-869e14thv)
+* migrate storage-dev prerelease workloads to OVH buckets and remove webpack-json-stats (CU-869e14thv)
+* migrate workloads to OVH buckets, including container-fs and tls-certs (CU-869e14thv)
+* squash multiple commits (original ae7282422e840405b144c67e641fd60b04ab932c, CU-869c8tfch)
+* upgrade Playwright 1.56.1 to 1.60.0 to fix extract-zip hang on Node >= 24.16.0 (CU-869dej6b8)
+
+
+##### Performance Improvements
+
+* stop per-session MCP RAM blowups via shared mcpproxy daemon (CU-869e9en4x)</details>
+
+<details><summary>Development dependency update @devowl-wp/eslint-config 0.3.1</summary>
+
+
+**_Purpose of dependency:_** _Provide eslint configuration for our complete monorepo._
+##### Maintenance
+
+* reject MobX decorators without makeObservable via ESLint (CU-869ejmez7)</details>
+
+
+
+
+
 # 4.23.0 (2026-08-18)
 
 
