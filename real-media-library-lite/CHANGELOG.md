@@ -3,6 +3,175 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.23.12 (2026-11-11)
+
+
+### Bug Fixes
+
+* keep rml_folder on Media Library list/grid mode switch (CU-869fjwv00)
+* show RML shortcut badge in list view and clear grid title (CU-869fnp1a7)
+* stop RML media modal folder tree covering attachments on mobile (CU-869fnmt88)
+
+
+
+
+
+
+
+## 4.23.11 (2026-11-05) (not released)
+
+**Note:** This version of the package has not (yet) been released publicly. This happens if changes have been made in dependencies that do not affect this package (e.g. changes for the development of the package). The changes will be rolled out with the next official update.
+
+**Note:** This package (@devowl-wp/real-media-library) has been updated because a dependency, which is also shipped with this package, has changed.
+
+
+<details><summary>Development dependency update @devowl-wp/api 1.16.0</summary>
+
+
+**_Purpose of dependency:_** _Shared typings for all Node.js backends and frontends._
+##### Features
+
+* add a shared Zod schema for TypeORM bigint ids (CU-869e4dnk1)</details>
+
+
+
+
+
+## 4.23.10 (2026-11-03) (not released)
+
+**Note:** This version of the package has not (yet) been released publicly. This happens if changes have been made in dependencies that do not affect this package (e.g. changes for the development of the package). The changes will be rolled out with the next official update.
+
+**Note:** This package (@devowl-wp/real-media-library) has been updated because a dependency, which is also shipped with this package, has changed.
+
+
+<details><summary>Development dependency update @devowl-wp/api 1.15.0</summary>
+
+
+**_Purpose of dependency:_** _Shared typings for all Node.js backends and frontends._
+##### Bug Fixes
+
+* address Greptile findings for lakehouse and CRS (CU-869e53q55)
+* do not mask Trino errors on cancel header refresh (CU-869e53q55)
+* keep SuperAdmin contract next to the webserver barrel (CU-869e54hv2)
+
+
+##### Code Refactoring
+
+* centralize SuperAdmin guard in api and backend packages
+* decouple schema factories from CreateContractContext (CU-869e55840)
+
+
+##### Documentation
+
+* point SuperAdmin README examples at barrel-local modules
+
+
+##### Features
+
+* compliance and lakehouse API contracts (CU-869e55840)</details>
+
+<details><summary>Development dependency update @devowl-wp/continuous-integration 0.9.4</summary>
+
+
+**_Purpose of dependency:_** _DevOps macros, job templates and jobs for Gitlab CI and @devowl-wp/node-gitlab-ci._
+##### Bug Fixes
+
+* skip the language-pack and source-map offload when nothing was built (CU-869etm54z)
+
+
+##### Continuous Integration
+
+* auto-stop inactive feature-branch review apps after 3 days (CU-869f92776)
+* lakehouse compose, e2e, and monorepo script wiring (CU-869e55840)
+* parallelize docker review prepare and environment start (CU-869f7c5ad)
+* pull only COMPOSE_SERVICES and drop E2E artifact wait (CU-869f7c5ad)
+* purge stale review-app stacks again on start (CU-869e53q55)
+* wire Dex AuthN lakehouse stack in compose (CU-869e53q55)
+
+
+##### Maintenance
+
+* wire Dex oauth for Trino stack and file ACL (CU-869e53q55)
+
+
+##### Performance Improvements
+
+* shrink gitlab-ci image and skip Buildx unpack on containerize (CU-869fjjqwy)</details>
+
+<details><summary>Development dependency update @devowl-wp/eslint-config 0.3.3</summary>
+
+
+**_Purpose of dependency:_** _Provide eslint configuration for our complete monorepo._
+##### Continuous Integration
+
+* lakehouse compose, e2e, and monorepo script wiring (CU-869e55840)
+
+
+##### Maintenance
+
+* ignore all .ai folders in ESLint and Prettier (CU-869fj8hj9)</details>
+
+
+
+
+
+## 4.23.9 (2026-10-14) (not released)
+
+**Note:** This version of the package has not (yet) been released publicly. This happens if changes have been made in dependencies that do not affect this package (e.g. changes for the development of the package). The changes will be rolled out with the next official update.
+
+
+### Bug Fixes
+
+* use Weblate nb language code instead of nb_NO after 2026.10 (CU-31976hv)
+
+
+<details><summary>Dependency updates @devowl-wp/real-product-manager-wp-client 1.22.6</summary>
+
+
+**_Purpose of dependency:_** _A WordPress client for Real Product Manager_
+##### Bug Fixes
+
+* use Weblate nb language code instead of nb_NO after 2026.10 (CU-31976hv)</details>
+
+<details><summary>Dependency updates @devowl-wp/real-utils 1.14.40</summary>
+
+
+**_Purpose of dependency:_** _Create about page, rating and newsletter input for WP Real plugins._
+##### Bug Fixes
+
+* use Weblate nb language code instead of nb_NO after 2026.10 (CU-31976hv)</details>
+
+<details><summary>Dependency updates @devowl-wp/utils 1.20.39</summary>
+
+
+**_Purpose of dependency:_** _Utility functionality for all your WordPress plugins._
+##### Bug Fixes
+
+* use Weblate nb language code instead of nb_NO after 2026.10 (CU-31976hv)</details>
+
+
+
+
+
+## 4.23.8 (2026-10-08) (not released)
+
+**Note:** This version of the package has not (yet) been released publicly. This happens if changes have been made in dependencies that do not affect this package (e.g. changes for the development of the package). The changes will be rolled out with the next official update.
+
+**Note:** This package (@devowl-wp/real-media-library) has been updated because a dependency, which is also shipped with this package, has changed.
+
+
+<details><summary>Development dependency update @devowl-wp/api 1.14.0</summary>
+
+
+**_Purpose of dependency:_** _Shared typings for all Node.js backends and frontends._
+##### Features
+
+* extend Zod with OpenAPI and document MQueue group-retry overtake (CU-869c8tj4a)</details>
+
+
+
+
+
 ## 4.23.7 (2026-09-29)
 
 
